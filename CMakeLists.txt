@@ -9,7 +9,9 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 add_compile_options(-Wall -Wextra -Wpedantic -Wconversion)
 
 # Scratch pad
-add_executable(scratch scratch/main.cpp)
+# add_executable(scratch scratch/main.cpp)
 
-# Lecciones: añadir según avances
-# add_executable(lesson01 lessons/01_value_semantics/exercise.cpp)
+# Lecciones
+add_subdirectory(lessons/01_value_semantics)
+add_subdirectory(lessons/02_raii)
+add_subdirectory(lessons/03_move_semantics)
