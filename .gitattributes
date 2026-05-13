@@ -1,0 +1,4 @@
+# Ensure C++ files are counted even if in weird folders
+*.cpp linguist-detectable
+*.h linguist-detectable
+*.hpp linguist-detectable
