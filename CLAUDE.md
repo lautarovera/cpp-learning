@@ -82,10 +82,11 @@ ctest --test-dir build
 - C-style casts → use `static_cast`, `reinterpret_cast`
 
 ## Student's current lesson
-**Next: Lesson 4 — std::unique_ptr and std::shared_ptr.**
+**Next: Lesson 5 — Classes: constructors, operator overloading, explicit.**
 Update this line after each completed lesson.
 
 ## Completed lessons
 - Lesson 1 — Value semantics and references ✓
 - Lesson 2 — RAII and destructors ✓
 - Lesson 3 — Move semantics and the rule of 0/3/5 ✓
+- Lesson 4 — std::unique_ptr and std::shared_ptr ✓
